@@ -6,23 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html structure</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
         <nav>
             <div>
-                <span>HelloWorld</span>
+                <span>Domain</span>
             </div>
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button>Click me</button>
+                </ul>
+                <div class="toggle_button_close">
+                     <i class="ri-close-large-line"></i>
+                </div>
+            </div>
 
-            <button>Click me</button>
+            <div class="toggle_button_menu">
+                <i class="ri-menu-line"></i>
+            </div>
+
         </nav>
     </header>
 
@@ -33,5 +43,6 @@
         </section>
     </main>
 </body>
+<script src="app.js"></script>
 
 </html>
